@@ -76,7 +76,7 @@ var movies = ["terminator", "300", "gladiator", "thePatriot", "waterBoy", "happy
  //Button 
     $('button').on('click', function() {
         var p = $(this).data('movie');
-        var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
+        var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + p + "&api_key=dc6zaTOxFJmzC&limit=10";
 
         $.ajax({
                 url: queryURL,
