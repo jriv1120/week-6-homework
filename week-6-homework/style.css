@@ -1,0 +1,43 @@
+#body {
+	
+	background-image: url('');
+	opacity: 1.5x
+	background-color:#707070;
+}
+
+
+
+.jumbotron  {
+		background-image: url('BvsS.jpg');
+		background-attachment: fixed;
+		background-position:50% 50%;
+		background-size:cover;
+		color: white; 
+		text-align: center;
+		opacity: 1.5x;
+}
+
+h1{
+	color: white;
+}
+
+#buttonBackground {
+		background-image: url('SQ.jpg');
+		background-attachment: fixed;
+		background-position:50% 50%;
+		background-size:cover;
+		color: white; 
+		text-align: center;
+		opacity: 1.5x;
+
+}
+
+.panel-heading {
+	background-color: red;
+}
+
+.panel-title {
+	color: white;
+
+}
+
